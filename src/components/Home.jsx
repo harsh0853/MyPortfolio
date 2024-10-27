@@ -30,14 +30,9 @@ const Home = () => {
       <div className="container home">
         <div className="left">
           <h2 ref={typedRef}></h2>
-          {/* <a
-            href={pdf}
-            download=""
-            
-            className="btn btn-outline-success my-3"
-          >
+          <a href={pdf} download="" className="btn btn-outline-success my-3">
             Download Resume
-          </a> */}
+          </a>
         </div>
         <div className="right">
           <div className="img">
